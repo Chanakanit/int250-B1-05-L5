@@ -37,7 +37,7 @@ let isOpen = ref(false)
             </button>
         </div>
         <!-- Hamburger Open -->
-        <div v-if="isOpen" class=" absolute top-15 right-0 w-2/3 z-99 flex flex-col items-center text-center bg-gray-300 md:w-1/2 lg:hidden">
+        <div v-if="isOpen" class=" absolute top-15 right-4 w-2/3 z-99 flex flex-col items-center text-center bg-gray-300 md:w-1/2 lg:hidden">
             <div class=" flex flex-col py-4 space-y-2">
                 <a href="#">Features</a>
                 <a href="#">Pricing</a>
@@ -54,4 +54,6 @@ let isOpen = ref(false)
     </nav>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
